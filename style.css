@@ -131,7 +131,7 @@ main {
   font-size: 13px;
 }
 
-@media (width < 700px) {
+@media (width < 50rem) {
   .testimonials-grid {
     grid-template-columns: 1fr;
   }
