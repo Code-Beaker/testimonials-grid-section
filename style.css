@@ -134,5 +134,20 @@ main {
 @media (width < 50rem) {
   .testimonials-grid {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: none;
+  }
+
+  .testimonial {
+    grid-area: auto;
+  }
+
+  :root {
+    --fs-testimonial-heading: 1.2rem;
+    --fs-text-sm: 0.95rem;
+  }
+
+  .quotes-icon {
+    right: 10%;
   }
 }
